@@ -42,4 +42,9 @@ class ArticlesController extends Controller
 	$article->content = Markdown::convertToHtml($article->content);
 	return view('articles.show', compact('article'));
     }
+
+    public function markdown(Request $request)
+    {
+        return Markdown::convertToHtml($request->content);
+    }
 }

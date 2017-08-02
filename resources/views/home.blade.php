@@ -13,7 +13,7 @@
 			<a href="{{ route('articles.show',$article->id) }}">{{ $article->title }}</a>
 		</h3>
 	</div>
-	</div><div class="panel-body">
+	<div class="panel-body">
 		<p>{{ $article->created_at }}  </p>
 		<p>{{ $article->intro }}  </p>
 	</div>

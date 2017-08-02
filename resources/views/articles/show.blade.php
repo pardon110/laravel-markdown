@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="z-panel">
-    <div class="z-panel-header">
+    <div class="z-panel-header" style="text-align:center">
         <h3>{{ $article->title }}</h3>
         <span> {{ $article->created_at }}</span>
     </div>
